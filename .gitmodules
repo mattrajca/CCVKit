@@ -1,0 +1,3 @@
+[submodule "libccv"]
+	path = libccv
+	url = git@github.com:liuliu/ccv.git

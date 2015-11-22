@@ -8,12 +8,128 @@
 
 /* Begin PBXBuildFile section */
 		C9068C371C02818400AE7531 /* CCVKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C361C02818400AE7531 /* CCVKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9068C821C02824D00AE7531 /* dSFMT-common.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C411C02824D00AE7531 /* dSFMT-common.h */; };
+		C9068C831C02824D00AE7531 /* dSFMT-params.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C421C02824D00AE7531 /* dSFMT-params.h */; };
+		C9068C841C02824D00AE7531 /* dSFMT-params19937.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C431C02824D00AE7531 /* dSFMT-params19937.h */; };
+		C9068C851C02824D00AE7531 /* dSFMT.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C441C02824D00AE7531 /* dSFMT.c */; };
+		C9068C861C02824D00AE7531 /* dSFMT.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C451C02824D00AE7531 /* dSFMT.h */; };
+		C9068C871C02824D00AE7531 /* _kiss_fft_guts.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C471C02824D00AE7531 /* _kiss_fft_guts.h */; };
+		C9068C881C02824D00AE7531 /* _kissf_fft_guts.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C481C02824D00AE7531 /* _kissf_fft_guts.h */; };
+		C9068C891C02824D00AE7531 /* kiss_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C491C02824D00AE7531 /* kiss_fft.c */; };
+		C9068C8A1C02824D00AE7531 /* kiss_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C4A1C02824D00AE7531 /* kiss_fft.h */; };
+		C9068C8B1C02824D00AE7531 /* kiss_fftnd.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C4B1C02824D00AE7531 /* kiss_fftnd.c */; };
+		C9068C8C1C02824D00AE7531 /* kiss_fftnd.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C4C1C02824D00AE7531 /* kiss_fftnd.h */; };
+		C9068C8D1C02824D00AE7531 /* kiss_fftndr.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C4D1C02824D00AE7531 /* kiss_fftndr.c */; };
+		C9068C8E1C02824D00AE7531 /* kiss_fftndr.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C4E1C02824D00AE7531 /* kiss_fftndr.h */; };
+		C9068C8F1C02824D00AE7531 /* kiss_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C4F1C02824D00AE7531 /* kiss_fftr.c */; };
+		C9068C901C02824D00AE7531 /* kiss_fftr.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C501C02824D00AE7531 /* kiss_fftr.h */; };
+		C9068C911C02824D00AE7531 /* kissf_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C511C02824D00AE7531 /* kissf_fft.c */; };
+		C9068C921C02824D00AE7531 /* kissf_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C521C02824D00AE7531 /* kissf_fft.h */; };
+		C9068C931C02824D00AE7531 /* kissf_fftnd.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C531C02824D00AE7531 /* kissf_fftnd.c */; };
+		C9068C941C02824D00AE7531 /* kissf_fftnd.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C541C02824D00AE7531 /* kissf_fftnd.h */; };
+		C9068C951C02824D00AE7531 /* kissf_fftndr.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C551C02824D00AE7531 /* kissf_fftndr.c */; };
+		C9068C961C02824D00AE7531 /* kissf_fftndr.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C561C02824D00AE7531 /* kissf_fftndr.h */; };
+		C9068C971C02824D00AE7531 /* kissf_fftr.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C571C02824D00AE7531 /* kissf_fftr.c */; };
+		C9068C981C02824D00AE7531 /* kissf_fftr.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C581C02824D00AE7531 /* kissf_fftr.h */; };
+		C9068C991C02824D00AE7531 /* SFMT-alti.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C5A1C02824D00AE7531 /* SFMT-alti.h */; };
+		C9068C9A1C02824D00AE7531 /* SFMT-common.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C5B1C02824D00AE7531 /* SFMT-common.h */; };
+		C9068C9B1C02824D00AE7531 /* SFMT-params.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C5C1C02824D00AE7531 /* SFMT-params.h */; };
+		C9068C9C1C02824D00AE7531 /* SFMT-params19937.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C5D1C02824D00AE7531 /* SFMT-params19937.h */; };
+		C9068C9D1C02824D00AE7531 /* SFMT-sse2.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C5E1C02824D00AE7531 /* SFMT-sse2.h */; };
+		C9068C9E1C02824D00AE7531 /* SFMT.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C5F1C02824D00AE7531 /* SFMT.c */; };
+		C9068C9F1C02824D00AE7531 /* SFMT.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C601C02824D00AE7531 /* SFMT.h */; };
+		C9068CA01C02824D00AE7531 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C621C02824D00AE7531 /* sha1.c */; };
+		C9068CA11C02824D00AE7531 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C631C02824D00AE7531 /* sha1.h */; };
+		C9068CA41C02824D00AE7531 /* ccv_algebra.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C671C02824D00AE7531 /* ccv_algebra.c */; };
+		C9068CA51C02824D00AE7531 /* ccv_basic.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C681C02824D00AE7531 /* ccv_basic.c */; };
+		C9068CA61C02824D00AE7531 /* ccv_bbf.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C691C02824D00AE7531 /* ccv_bbf.c */; };
+		C9068CA71C02824D00AE7531 /* ccv_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C6A1C02824D00AE7531 /* ccv_cache.c */; };
+		C9068CA81C02824D00AE7531 /* ccv_classic.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C6B1C02824D00AE7531 /* ccv_classic.c */; };
+		C9068CA91C02824D00AE7531 /* ccv_convnet.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C6C1C02824D00AE7531 /* ccv_convnet.c */; };
+		C9068CAA1C02824D00AE7531 /* ccv_daisy.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C6D1C02824D00AE7531 /* ccv_daisy.c */; };
+		C9068CAC1C02824D00AE7531 /* ccv_dpm.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C6F1C02824D00AE7531 /* ccv_dpm.c */; };
+		C9068CAD1C02824D00AE7531 /* ccv_ferns.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C701C02824D00AE7531 /* ccv_ferns.c */; };
+		C9068CAE1C02824D00AE7531 /* ccv_icf.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C711C02824D00AE7531 /* ccv_icf.c */; };
+		C9068CAF1C02824D00AE7531 /* ccv_image_processing.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C721C02824D00AE7531 /* ccv_image_processing.c */; };
+		C9068CB01C02824D00AE7531 /* ccv_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C731C02824D00AE7531 /* ccv_internal.h */; };
+		C9068CB11C02824D00AE7531 /* ccv_io.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C741C02824D00AE7531 /* ccv_io.c */; };
+		C9068CB21C02824D00AE7531 /* ccv_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C751C02824D00AE7531 /* ccv_memory.c */; };
+		C9068CB31C02824D00AE7531 /* ccv_mser.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C761C02824D00AE7531 /* ccv_mser.c */; };
+		C9068CB41C02824D00AE7531 /* ccv_numeric.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C771C02824D00AE7531 /* ccv_numeric.c */; };
+		C9068CB51C02824D00AE7531 /* ccv_output.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C781C02824D00AE7531 /* ccv_output.c */; };
+		C9068CB61C02824D00AE7531 /* ccv_resample.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C791C02824D00AE7531 /* ccv_resample.c */; };
+		C9068CB71C02824D00AE7531 /* ccv_scd.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7A1C02824D00AE7531 /* ccv_scd.c */; };
+		C9068CB81C02824D00AE7531 /* ccv_sift.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7B1C02824D00AE7531 /* ccv_sift.c */; };
+		C9068CB91C02824D00AE7531 /* ccv_sparse_coding.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7C1C02824D00AE7531 /* ccv_sparse_coding.c */; };
+		C9068CBA1C02824D00AE7531 /* ccv_swt.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7D1C02824D00AE7531 /* ccv_swt.c */; };
+		C9068CBB1C02824D00AE7531 /* ccv_tld.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7E1C02824D00AE7531 /* ccv_tld.c */; };
+		C9068CBC1C02824D00AE7531 /* ccv_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7F1C02824D00AE7531 /* ccv_transform.c */; };
+		C9068CBD1C02824D00AE7531 /* ccv_util.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C801C02824D00AE7531 /* ccv_util.c */; };
+		C9068CBE1C02824D00AE7531 /* ccv.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C811C02824D00AE7531 /* ccv.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9068C331C02818400AE7531 /* CCVKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCVKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9068C361C02818400AE7531 /* CCVKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCVKit.h; sourceTree = "<group>"; };
 		C9068C381C02818400AE7531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9068C411C02824D00AE7531 /* dSFMT-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dSFMT-common.h"; sourceTree = "<group>"; };
+		C9068C421C02824D00AE7531 /* dSFMT-params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dSFMT-params.h"; sourceTree = "<group>"; };
+		C9068C431C02824D00AE7531 /* dSFMT-params19937.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dSFMT-params19937.h"; sourceTree = "<group>"; };
+		C9068C441C02824D00AE7531 /* dSFMT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dSFMT.c; sourceTree = "<group>"; };
+		C9068C451C02824D00AE7531 /* dSFMT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dSFMT.h; sourceTree = "<group>"; };
+		C9068C471C02824D00AE7531 /* _kiss_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kiss_fft_guts.h; sourceTree = "<group>"; };
+		C9068C481C02824D00AE7531 /* _kissf_fft_guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _kissf_fft_guts.h; sourceTree = "<group>"; };
+		C9068C491C02824D00AE7531 /* kiss_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fft.c; sourceTree = "<group>"; };
+		C9068C4A1C02824D00AE7531 /* kiss_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fft.h; sourceTree = "<group>"; };
+		C9068C4B1C02824D00AE7531 /* kiss_fftnd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fftnd.c; sourceTree = "<group>"; };
+		C9068C4C1C02824D00AE7531 /* kiss_fftnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fftnd.h; sourceTree = "<group>"; };
+		C9068C4D1C02824D00AE7531 /* kiss_fftndr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fftndr.c; sourceTree = "<group>"; };
+		C9068C4E1C02824D00AE7531 /* kiss_fftndr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fftndr.h; sourceTree = "<group>"; };
+		C9068C4F1C02824D00AE7531 /* kiss_fftr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiss_fftr.c; sourceTree = "<group>"; };
+		C9068C501C02824D00AE7531 /* kiss_fftr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kiss_fftr.h; sourceTree = "<group>"; };
+		C9068C511C02824D00AE7531 /* kissf_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kissf_fft.c; sourceTree = "<group>"; };
+		C9068C521C02824D00AE7531 /* kissf_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kissf_fft.h; sourceTree = "<group>"; };
+		C9068C531C02824D00AE7531 /* kissf_fftnd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kissf_fftnd.c; sourceTree = "<group>"; };
+		C9068C541C02824D00AE7531 /* kissf_fftnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kissf_fftnd.h; sourceTree = "<group>"; };
+		C9068C551C02824D00AE7531 /* kissf_fftndr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kissf_fftndr.c; sourceTree = "<group>"; };
+		C9068C561C02824D00AE7531 /* kissf_fftndr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kissf_fftndr.h; sourceTree = "<group>"; };
+		C9068C571C02824D00AE7531 /* kissf_fftr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kissf_fftr.c; sourceTree = "<group>"; };
+		C9068C581C02824D00AE7531 /* kissf_fftr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kissf_fftr.h; sourceTree = "<group>"; };
+		C9068C5A1C02824D00AE7531 /* SFMT-alti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFMT-alti.h"; sourceTree = "<group>"; };
+		C9068C5B1C02824D00AE7531 /* SFMT-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFMT-common.h"; sourceTree = "<group>"; };
+		C9068C5C1C02824D00AE7531 /* SFMT-params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFMT-params.h"; sourceTree = "<group>"; };
+		C9068C5D1C02824D00AE7531 /* SFMT-params19937.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFMT-params19937.h"; sourceTree = "<group>"; };
+		C9068C5E1C02824D00AE7531 /* SFMT-sse2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SFMT-sse2.h"; sourceTree = "<group>"; };
+		C9068C5F1C02824D00AE7531 /* SFMT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SFMT.c; sourceTree = "<group>"; };
+		C9068C601C02824D00AE7531 /* SFMT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMT.h; sourceTree = "<group>"; };
+		C9068C621C02824D00AE7531 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		C9068C631C02824D00AE7531 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		C9068C671C02824D00AE7531 /* ccv_algebra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_algebra.c; path = libccv/lib/ccv_algebra.c; sourceTree = "<group>"; };
+		C9068C681C02824D00AE7531 /* ccv_basic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_basic.c; path = libccv/lib/ccv_basic.c; sourceTree = "<group>"; };
+		C9068C691C02824D00AE7531 /* ccv_bbf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_bbf.c; path = libccv/lib/ccv_bbf.c; sourceTree = "<group>"; };
+		C9068C6A1C02824D00AE7531 /* ccv_cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_cache.c; path = libccv/lib/ccv_cache.c; sourceTree = "<group>"; };
+		C9068C6B1C02824D00AE7531 /* ccv_classic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_classic.c; path = libccv/lib/ccv_classic.c; sourceTree = "<group>"; };
+		C9068C6C1C02824D00AE7531 /* ccv_convnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_convnet.c; path = libccv/lib/ccv_convnet.c; sourceTree = "<group>"; };
+		C9068C6D1C02824D00AE7531 /* ccv_daisy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_daisy.c; path = libccv/lib/ccv_daisy.c; sourceTree = "<group>"; };
+		C9068C6F1C02824D00AE7531 /* ccv_dpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_dpm.c; path = libccv/lib/ccv_dpm.c; sourceTree = "<group>"; };
+		C9068C701C02824D00AE7531 /* ccv_ferns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_ferns.c; path = libccv/lib/ccv_ferns.c; sourceTree = "<group>"; };
+		C9068C711C02824D00AE7531 /* ccv_icf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_icf.c; path = libccv/lib/ccv_icf.c; sourceTree = "<group>"; };
+		C9068C721C02824D00AE7531 /* ccv_image_processing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_image_processing.c; path = libccv/lib/ccv_image_processing.c; sourceTree = "<group>"; };
+		C9068C731C02824D00AE7531 /* ccv_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccv_internal.h; path = libccv/lib/ccv_internal.h; sourceTree = "<group>"; };
+		C9068C741C02824D00AE7531 /* ccv_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_io.c; path = libccv/lib/ccv_io.c; sourceTree = "<group>"; };
+		C9068C751C02824D00AE7531 /* ccv_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_memory.c; path = libccv/lib/ccv_memory.c; sourceTree = "<group>"; };
+		C9068C761C02824D00AE7531 /* ccv_mser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_mser.c; path = libccv/lib/ccv_mser.c; sourceTree = "<group>"; };
+		C9068C771C02824D00AE7531 /* ccv_numeric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_numeric.c; path = libccv/lib/ccv_numeric.c; sourceTree = "<group>"; };
+		C9068C781C02824D00AE7531 /* ccv_output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_output.c; path = libccv/lib/ccv_output.c; sourceTree = "<group>"; };
+		C9068C791C02824D00AE7531 /* ccv_resample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_resample.c; path = libccv/lib/ccv_resample.c; sourceTree = "<group>"; };
+		C9068C7A1C02824D00AE7531 /* ccv_scd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_scd.c; path = libccv/lib/ccv_scd.c; sourceTree = "<group>"; };
+		C9068C7B1C02824D00AE7531 /* ccv_sift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_sift.c; path = libccv/lib/ccv_sift.c; sourceTree = "<group>"; };
+		C9068C7C1C02824D00AE7531 /* ccv_sparse_coding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_sparse_coding.c; path = libccv/lib/ccv_sparse_coding.c; sourceTree = "<group>"; };
+		C9068C7D1C02824D00AE7531 /* ccv_swt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_swt.c; path = libccv/lib/ccv_swt.c; sourceTree = "<group>"; };
+		C9068C7E1C02824D00AE7531 /* ccv_tld.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_tld.c; path = libccv/lib/ccv_tld.c; sourceTree = "<group>"; };
+		C9068C7F1C02824D00AE7531 /* ccv_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_transform.c; path = libccv/lib/ccv_transform.c; sourceTree = "<group>"; };
+		C9068C801C02824D00AE7531 /* ccv_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_util.c; path = libccv/lib/ccv_util.c; sourceTree = "<group>"; };
+		C9068C811C02824D00AE7531 /* ccv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccv.h; path = libccv/lib/ccv.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +146,7 @@
 		C9068C291C02818400AE7531 = {
 			isa = PBXGroup;
 			children = (
+				C9068C3E1C02823400AE7531 /* libccv */,
 				C9068C351C02818400AE7531 /* CCVKit */,
 				C9068C341C02818400AE7531 /* Products */,
 			);
@@ -52,6 +169,112 @@
 			path = CCVKit;
 			sourceTree = "<group>";
 		};
+		C9068C3E1C02823400AE7531 /* libccv */ = {
+			isa = PBXGroup;
+			children = (
+				C9068C3F1C02824D00AE7531 /* 3rdparty */,
+				C9068C811C02824D00AE7531 /* ccv.h */,
+				C9068C671C02824D00AE7531 /* ccv_algebra.c */,
+				C9068C681C02824D00AE7531 /* ccv_basic.c */,
+				C9068C691C02824D00AE7531 /* ccv_bbf.c */,
+				C9068C6A1C02824D00AE7531 /* ccv_cache.c */,
+				C9068C6B1C02824D00AE7531 /* ccv_classic.c */,
+				C9068C6C1C02824D00AE7531 /* ccv_convnet.c */,
+				C9068C6D1C02824D00AE7531 /* ccv_daisy.c */,
+				C9068C6F1C02824D00AE7531 /* ccv_dpm.c */,
+				C9068C701C02824D00AE7531 /* ccv_ferns.c */,
+				C9068C711C02824D00AE7531 /* ccv_icf.c */,
+				C9068C721C02824D00AE7531 /* ccv_image_processing.c */,
+				C9068C731C02824D00AE7531 /* ccv_internal.h */,
+				C9068C741C02824D00AE7531 /* ccv_io.c */,
+				C9068C751C02824D00AE7531 /* ccv_memory.c */,
+				C9068C761C02824D00AE7531 /* ccv_mser.c */,
+				C9068C771C02824D00AE7531 /* ccv_numeric.c */,
+				C9068C781C02824D00AE7531 /* ccv_output.c */,
+				C9068C791C02824D00AE7531 /* ccv_resample.c */,
+				C9068C7A1C02824D00AE7531 /* ccv_scd.c */,
+				C9068C7B1C02824D00AE7531 /* ccv_sift.c */,
+				C9068C7C1C02824D00AE7531 /* ccv_sparse_coding.c */,
+				C9068C7D1C02824D00AE7531 /* ccv_swt.c */,
+				C9068C7E1C02824D00AE7531 /* ccv_tld.c */,
+				C9068C7F1C02824D00AE7531 /* ccv_transform.c */,
+				C9068C801C02824D00AE7531 /* ccv_util.c */,
+			);
+			name = libccv;
+			sourceTree = "<group>";
+		};
+		C9068C3F1C02824D00AE7531 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				C9068C401C02824D00AE7531 /* dsfmt */,
+				C9068C461C02824D00AE7531 /* kissfft */,
+				C9068C591C02824D00AE7531 /* sfmt */,
+				C9068C611C02824D00AE7531 /* sha1 */,
+			);
+			name = 3rdparty;
+			path = libccv/lib/3rdparty;
+			sourceTree = "<group>";
+		};
+		C9068C401C02824D00AE7531 /* dsfmt */ = {
+			isa = PBXGroup;
+			children = (
+				C9068C411C02824D00AE7531 /* dSFMT-common.h */,
+				C9068C421C02824D00AE7531 /* dSFMT-params.h */,
+				C9068C431C02824D00AE7531 /* dSFMT-params19937.h */,
+				C9068C441C02824D00AE7531 /* dSFMT.c */,
+				C9068C451C02824D00AE7531 /* dSFMT.h */,
+			);
+			path = dsfmt;
+			sourceTree = "<group>";
+		};
+		C9068C461C02824D00AE7531 /* kissfft */ = {
+			isa = PBXGroup;
+			children = (
+				C9068C471C02824D00AE7531 /* _kiss_fft_guts.h */,
+				C9068C481C02824D00AE7531 /* _kissf_fft_guts.h */,
+				C9068C491C02824D00AE7531 /* kiss_fft.c */,
+				C9068C4A1C02824D00AE7531 /* kiss_fft.h */,
+				C9068C4B1C02824D00AE7531 /* kiss_fftnd.c */,
+				C9068C4C1C02824D00AE7531 /* kiss_fftnd.h */,
+				C9068C4D1C02824D00AE7531 /* kiss_fftndr.c */,
+				C9068C4E1C02824D00AE7531 /* kiss_fftndr.h */,
+				C9068C4F1C02824D00AE7531 /* kiss_fftr.c */,
+				C9068C501C02824D00AE7531 /* kiss_fftr.h */,
+				C9068C511C02824D00AE7531 /* kissf_fft.c */,
+				C9068C521C02824D00AE7531 /* kissf_fft.h */,
+				C9068C531C02824D00AE7531 /* kissf_fftnd.c */,
+				C9068C541C02824D00AE7531 /* kissf_fftnd.h */,
+				C9068C551C02824D00AE7531 /* kissf_fftndr.c */,
+				C9068C561C02824D00AE7531 /* kissf_fftndr.h */,
+				C9068C571C02824D00AE7531 /* kissf_fftr.c */,
+				C9068C581C02824D00AE7531 /* kissf_fftr.h */,
+			);
+			path = kissfft;
+			sourceTree = "<group>";
+		};
+		C9068C591C02824D00AE7531 /* sfmt */ = {
+			isa = PBXGroup;
+			children = (
+				C9068C5A1C02824D00AE7531 /* SFMT-alti.h */,
+				C9068C5B1C02824D00AE7531 /* SFMT-common.h */,
+				C9068C5C1C02824D00AE7531 /* SFMT-params.h */,
+				C9068C5D1C02824D00AE7531 /* SFMT-params19937.h */,
+				C9068C5E1C02824D00AE7531 /* SFMT-sse2.h */,
+				C9068C5F1C02824D00AE7531 /* SFMT.c */,
+				C9068C601C02824D00AE7531 /* SFMT.h */,
+			);
+			path = sfmt;
+			sourceTree = "<group>";
+		};
+		C9068C611C02824D00AE7531 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				C9068C621C02824D00AE7531 /* sha1.c */,
+				C9068C631C02824D00AE7531 /* sha1.h */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -59,7 +282,30 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9068C9B1C02824D00AE7531 /* SFMT-params.h in Headers */,
+				C9068CA11C02824D00AE7531 /* sha1.h in Headers */,
+				C9068C821C02824D00AE7531 /* dSFMT-common.h in Headers */,
+				C9068C8A1C02824D00AE7531 /* kiss_fft.h in Headers */,
+				C9068C991C02824D00AE7531 /* SFMT-alti.h in Headers */,
+				C9068CB01C02824D00AE7531 /* ccv_internal.h in Headers */,
+				C9068C9C1C02824D00AE7531 /* SFMT-params19937.h in Headers */,
+				C9068C9A1C02824D00AE7531 /* SFMT-common.h in Headers */,
+				C9068C941C02824D00AE7531 /* kissf_fftnd.h in Headers */,
+				C9068C861C02824D00AE7531 /* dSFMT.h in Headers */,
+				C9068C881C02824D00AE7531 /* _kissf_fft_guts.h in Headers */,
+				C9068C8E1C02824D00AE7531 /* kiss_fftndr.h in Headers */,
+				C9068C981C02824D00AE7531 /* kissf_fftr.h in Headers */,
+				C9068C871C02824D00AE7531 /* _kiss_fft_guts.h in Headers */,
+				C9068C841C02824D00AE7531 /* dSFMT-params19937.h in Headers */,
+				C9068C831C02824D00AE7531 /* dSFMT-params.h in Headers */,
+				C9068C961C02824D00AE7531 /* kissf_fftndr.h in Headers */,
+				C9068C921C02824D00AE7531 /* kissf_fft.h in Headers */,
+				C9068C8C1C02824D00AE7531 /* kiss_fftnd.h in Headers */,
+				C9068C9D1C02824D00AE7531 /* SFMT-sse2.h in Headers */,
+				C9068CBE1C02824D00AE7531 /* ccv.h in Headers */,
+				C9068C901C02824D00AE7531 /* kiss_fftr.h in Headers */,
 				C9068C371C02818400AE7531 /* CCVKit.h in Headers */,
+				C9068C9F1C02824D00AE7531 /* SFMT.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +376,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9068CB91C02824D00AE7531 /* ccv_sparse_coding.c in Sources */,
+				C9068CA91C02824D00AE7531 /* ccv_convnet.c in Sources */,
+				C9068C8B1C02824D00AE7531 /* kiss_fftnd.c in Sources */,
+				C9068CB81C02824D00AE7531 /* ccv_sift.c in Sources */,
+				C9068CAC1C02824D00AE7531 /* ccv_dpm.c in Sources */,
+				C9068C931C02824D00AE7531 /* kissf_fftnd.c in Sources */,
+				C9068C951C02824D00AE7531 /* kissf_fftndr.c in Sources */,
+				C9068CA41C02824D00AE7531 /* ccv_algebra.c in Sources */,
+				C9068C8F1C02824D00AE7531 /* kiss_fftr.c in Sources */,
+				C9068CB61C02824D00AE7531 /* ccv_resample.c in Sources */,
+				C9068CB31C02824D00AE7531 /* ccv_mser.c in Sources */,
+				C9068CBB1C02824D00AE7531 /* ccv_tld.c in Sources */,
+				C9068CA51C02824D00AE7531 /* ccv_basic.c in Sources */,
+				C9068CA61C02824D00AE7531 /* ccv_bbf.c in Sources */,
+				C9068C891C02824D00AE7531 /* kiss_fft.c in Sources */,
+				C9068CA81C02824D00AE7531 /* ccv_classic.c in Sources */,
+				C9068CB21C02824D00AE7531 /* ccv_memory.c in Sources */,
+				C9068CAF1C02824D00AE7531 /* ccv_image_processing.c in Sources */,
+				C9068CB41C02824D00AE7531 /* ccv_numeric.c in Sources */,
+				C9068CAA1C02824D00AE7531 /* ccv_daisy.c in Sources */,
+				C9068C9E1C02824D00AE7531 /* SFMT.c in Sources */,
+				C9068CAD1C02824D00AE7531 /* ccv_ferns.c in Sources */,
+				C9068CA01C02824D00AE7531 /* sha1.c in Sources */,
+				C9068CA71C02824D00AE7531 /* ccv_cache.c in Sources */,
+				C9068CB51C02824D00AE7531 /* ccv_output.c in Sources */,
+				C9068CAE1C02824D00AE7531 /* ccv_icf.c in Sources */,
+				C9068C971C02824D00AE7531 /* kissf_fftr.c in Sources */,
+				C9068CB11C02824D00AE7531 /* ccv_io.c in Sources */,
+				C9068C851C02824D00AE7531 /* dSFMT.c in Sources */,
+				C9068CB71C02824D00AE7531 /* ccv_scd.c in Sources */,
+				C9068CBC1C02824D00AE7531 /* ccv_transform.c in Sources */,
+				C9068CBD1C02824D00AE7531 /* ccv_util.c in Sources */,
+				C9068CBA1C02824D00AE7531 /* ccv_swt.c in Sources */,
+				C9068C8D1C02824D00AE7531 /* kiss_fftndr.c in Sources */,
+				C9068C911C02824D00AE7531 /* kissf_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +447,8 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					USE_DISPATCH,
+					HAVE_ACCELERATE_FRAMEWORK,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -207,6 +490,10 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_ACCELERATE_FRAMEWORK,
+					USE_DISPATCH,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -230,9 +517,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				GCC_FAST_MATH = YES;
 				INFOPLIST_FILE = CCVKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lsqlite3";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MattRajca.CCVKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -248,9 +537,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				GCC_FAST_MATH = YES;
 				INFOPLIST_FILE = CCVKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-lsqlite3";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MattRajca.CCVKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
