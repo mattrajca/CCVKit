@@ -66,6 +66,15 @@
 		C9068CBC1C02824D00AE7531 /* ccv_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C7F1C02824D00AE7531 /* ccv_transform.c */; };
 		C9068CBD1C02824D00AE7531 /* ccv_util.c in Sources */ = {isa = PBXBuildFile; fileRef = C9068C801C02824D00AE7531 /* ccv_util.c */; };
 		C9068CBE1C02824D00AE7531 /* ccv.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068C811C02824D00AE7531 /* ccv.h */; };
+		C9068CC11C02849100AE7531 /* CCVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068CBF1C02849100AE7531 /* CCVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9068CC21C02849100AE7531 /* CCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9068CC01C02849100AE7531 /* CCVImage.m */; };
+		C9068CC51C02851400AE7531 /* CCVUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068CC31C02851400AE7531 /* CCVUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9068CC61C02851400AE7531 /* CCVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C9068CC41C02851400AE7531 /* CCVUtilities.m */; };
+		C9068CC91C02859400AE7531 /* CCVSIFTDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068CC71C02859400AE7531 /* CCVSIFTDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9068CCA1C02859400AE7531 /* CCVSIFTDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = C9068CC81C02859400AE7531 /* CCVSIFTDetector.m */; };
+		C9068CCE1C028ADF00AE7531 /* CCVKeypointMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = C9068CCC1C028ADF00AE7531 /* CCVKeypointMatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9068CCF1C028ADF00AE7531 /* CCVKeypointMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = C9068CCD1C028ADF00AE7531 /* CCVKeypointMatch.m */; };
+		C94303101C02DF63006F9AB3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C943030F1C02DF63006F9AB3 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +139,16 @@
 		C9068C7F1C02824D00AE7531 /* ccv_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_transform.c; path = libccv/lib/ccv_transform.c; sourceTree = "<group>"; };
 		C9068C801C02824D00AE7531 /* ccv_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_util.c; path = libccv/lib/ccv_util.c; sourceTree = "<group>"; };
 		C9068C811C02824D00AE7531 /* ccv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccv.h; path = libccv/lib/ccv.h; sourceTree = "<group>"; };
+		C9068CBF1C02849100AE7531 /* CCVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVImage.h; sourceTree = "<group>"; };
+		C9068CC01C02849100AE7531 /* CCVImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVImage.m; sourceTree = "<group>"; };
+		C9068CC31C02851400AE7531 /* CCVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVUtilities.h; sourceTree = "<group>"; };
+		C9068CC41C02851400AE7531 /* CCVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVUtilities.m; sourceTree = "<group>"; };
+		C9068CC71C02859400AE7531 /* CCVSIFTDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVSIFTDetector.h; sourceTree = "<group>"; };
+		C9068CC81C02859400AE7531 /* CCVSIFTDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVSIFTDetector.m; sourceTree = "<group>"; };
+		C9068CCB1C02894000AE7531 /* CCVImage+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCVImage+Private.h"; sourceTree = "<group>"; };
+		C9068CCC1C028ADF00AE7531 /* CCVKeypointMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVKeypointMatch.h; sourceTree = "<group>"; };
+		C9068CCD1C028ADF00AE7531 /* CCVKeypointMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVKeypointMatch.m; sourceTree = "<group>"; };
+		C943030F1C02DF63006F9AB3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94303101C02DF63006F9AB3 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +166,7 @@
 		C9068C291C02818400AE7531 = {
 			isa = PBXGroup;
 			children = (
+				C943030F1C02DF63006F9AB3 /* Accelerate.framework */,
 				C9068C3E1C02823400AE7531 /* libccv */,
 				C9068C351C02818400AE7531 /* CCVKit */,
 				C9068C341C02818400AE7531 /* Products */,
@@ -163,6 +184,7 @@
 		C9068C351C02818400AE7531 /* CCVKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9068CD01C028C2A00AE7531 /* Sources */,
 				C9068C361C02818400AE7531 /* CCVKit.h */,
 				C9068C381C02818400AE7531 /* Info.plist */,
 			);
@@ -275,6 +297,22 @@
 			path = sha1;
 			sourceTree = "<group>";
 		};
+		C9068CD01C028C2A00AE7531 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C9068CBF1C02849100AE7531 /* CCVImage.h */,
+				C9068CC01C02849100AE7531 /* CCVImage.m */,
+				C9068CCB1C02894000AE7531 /* CCVImage+Private.h */,
+				C9068CCC1C028ADF00AE7531 /* CCVKeypointMatch.h */,
+				C9068CCD1C028ADF00AE7531 /* CCVKeypointMatch.m */,
+				C9068CC71C02859400AE7531 /* CCVSIFTDetector.h */,
+				C9068CC81C02859400AE7531 /* CCVSIFTDetector.m */,
+				C9068CC31C02851400AE7531 /* CCVUtilities.h */,
+				C9068CC41C02851400AE7531 /* CCVUtilities.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -283,11 +321,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9068C9B1C02824D00AE7531 /* SFMT-params.h in Headers */,
+				C9068CC91C02859400AE7531 /* CCVSIFTDetector.h in Headers */,
 				C9068CA11C02824D00AE7531 /* sha1.h in Headers */,
 				C9068C821C02824D00AE7531 /* dSFMT-common.h in Headers */,
 				C9068C8A1C02824D00AE7531 /* kiss_fft.h in Headers */,
 				C9068C991C02824D00AE7531 /* SFMT-alti.h in Headers */,
 				C9068CB01C02824D00AE7531 /* ccv_internal.h in Headers */,
+				C9068CC51C02851400AE7531 /* CCVUtilities.h in Headers */,
 				C9068C9C1C02824D00AE7531 /* SFMT-params19937.h in Headers */,
 				C9068C9A1C02824D00AE7531 /* SFMT-common.h in Headers */,
 				C9068C941C02824D00AE7531 /* kissf_fftnd.h in Headers */,
@@ -304,8 +344,10 @@
 				C9068C9D1C02824D00AE7531 /* SFMT-sse2.h in Headers */,
 				C9068CBE1C02824D00AE7531 /* ccv.h in Headers */,
 				C9068C901C02824D00AE7531 /* kiss_fftr.h in Headers */,
+				C9068CCE1C028ADF00AE7531 /* CCVKeypointMatch.h in Headers */,
 				C9068C371C02818400AE7531 /* CCVKit.h in Headers */,
 				C9068C9F1C02824D00AE7531 /* SFMT.h in Headers */,
+				C9068CC11C02849100AE7531 /* CCVImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +418,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9068CC21C02849100AE7531 /* CCVImage.m in Sources */,
 				C9068CB91C02824D00AE7531 /* ccv_sparse_coding.c in Sources */,
 				C9068CA91C02824D00AE7531 /* ccv_convnet.c in Sources */,
 				C9068C8B1C02824D00AE7531 /* kiss_fftnd.c in Sources */,
 				C9068CB81C02824D00AE7531 /* ccv_sift.c in Sources */,
 				C9068CAC1C02824D00AE7531 /* ccv_dpm.c in Sources */,
 				C9068C931C02824D00AE7531 /* kissf_fftnd.c in Sources */,
+				C9068CC61C02851400AE7531 /* CCVUtilities.m in Sources */,
 				C9068C951C02824D00AE7531 /* kissf_fftndr.c in Sources */,
 				C9068CA41C02824D00AE7531 /* ccv_algebra.c in Sources */,
 				C9068C8F1C02824D00AE7531 /* kiss_fftr.c in Sources */,
@@ -396,8 +440,10 @@
 				C9068CAF1C02824D00AE7531 /* ccv_image_processing.c in Sources */,
 				C9068CB41C02824D00AE7531 /* ccv_numeric.c in Sources */,
 				C9068CAA1C02824D00AE7531 /* ccv_daisy.c in Sources */,
+				C9068CCF1C028ADF00AE7531 /* CCVKeypointMatch.m in Sources */,
 				C9068C9E1C02824D00AE7531 /* SFMT.c in Sources */,
 				C9068CAD1C02824D00AE7531 /* ccv_ferns.c in Sources */,
+				C9068CCA1C02859400AE7531 /* CCVSIFTDetector.m in Sources */,
 				C9068CA01C02824D00AE7531 /* sha1.c in Sources */,
 				C9068CA71C02824D00AE7531 /* ccv_cache.c in Sources */,
 				C9068CB51C02824D00AE7531 /* ccv_output.c in Sources */,
@@ -449,6 +495,8 @@
 					"$(inherited)",
 					USE_DISPATCH,
 					HAVE_ACCELERATE_FRAMEWORK,
+					HAVE_CBLAS,
+					HAVE_SSE2,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -493,6 +541,8 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					HAVE_ACCELERATE_FRAMEWORK,
 					USE_DISPATCH,
+					HAVE_CBLAS,
+					HAVE_SSE2,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -521,7 +571,16 @@
 				INFOPLIST_FILE = CCVKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-lsqlite3";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-fblocks",
+					"-msse2",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lm",
+					"-lblas",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MattRajca.CCVKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -541,7 +600,16 @@
 				INFOPLIST_FILE = CCVKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-lsqlite3";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-fblocks",
+					"-msse2",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+					"-lm",
+					"-lblas",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MattRajca.CCVKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -567,6 +635,7 @@
 				C9068C3D1C02818400AE7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

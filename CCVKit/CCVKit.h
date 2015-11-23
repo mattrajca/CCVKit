@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char CCVKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CCVKit/PublicHeader.h>
 
-
+#import <CCVKit/CCVImage.h>
+#import <CCVKit/CCVKeypointMatch.h>
+#import <CCVKit/CCVSIFTDetector.h>
+#import <CCVKit/CCVUtilities.h>
